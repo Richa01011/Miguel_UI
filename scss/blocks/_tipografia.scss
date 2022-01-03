@@ -1,0 +1,41 @@
+.tipografia {
+	margin-bottom: 130px;
+}
+.tipografia__head {
+	margin-bottom: 24px;
+}
+.tipografia__title {
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: 0.25px;
+
+	margin-bottom: 18px;
+}
+.tipografia__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.44px;
+	& p:first-child {
+		margin-bottom: 16px;
+	}
+	& a {
+		text-decoration-line: underline;
+		color: #A0A0A1;
+	}
+}
+.tipografia__img {
+	& img {
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.tipografia {
+		margin-bottom: 24px;
+		&__title {
+			font-size: 24px;
+			line-height: 32px;
+		}
+	}
+}

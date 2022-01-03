@@ -1,0 +1,62 @@
+.habilidades {
+	margin: 64px 0;
+}
+.habilidades__head {
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: 0.25px;
+	text-align: center;
+}
+.habilidades__cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 355px);
+	grid-gap: 24px;
+	justify-content: center;
+	margin-top: 60px;
+}
+.habilidades__card {
+	background-color: #1C1E22;
+	padding: 24px;
+	border-radius: 8px;
+	max-width: 355px;
+	max-height: 300px;
+}
+.habilidades__icon {
+	margin-bottom: 10px;
+}
+.habilidades__title {
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: 0.25px;
+	margin-bottom: 10px;
+}
+.habilidades__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.44px;
+}
+@media screen and (max-width: 425px) {
+	.habilidades {
+		&__cards {
+			display: block;
+			margin-top: 32px;
+		}
+		&__card {
+			margin-bottom: 24px;
+			padding: 16px;
+		}
+		&__title {
+			font-size: 20px;
+			line-height: 24px;
+			letter-spacing: 0.15px;
+		}
+		&__text {
+			font-size: 14px;
+			line-height: 20px;
+			letter-spacing: 0.25px;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.paleta {
+	margin-bottom: 130px;
+}
+.paleta__head {
+	margin-bottom: 24px;
+}
+.paleta__title {
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: 0.25px;
+
+	margin-bottom: 18px;
+}
+.paleta__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.44px;
+}
+.paleta__img {
+	& img {
+		max-width: 100%;
+		&:first-child {
+			margin-bottom: 24px;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.paleta {
+		margin-bottom: 32px;
+		&__title {
+			font-size: 24px;
+			line-height: 32px;
+		}
+	}
+}

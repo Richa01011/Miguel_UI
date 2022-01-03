@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Miguel UI</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<a href="index.html">
+				<h1 class="header__logo">Miguel UI</h1>
+			</a>
+			<div class="modal">
+				<div class="modal__overlay">
+				</div>
+			</div>
+			<nav class="header__nav">
+				<a href="index.html" class="header__nav_item select">Inicio</a>
+				<a href="pages/acerca.html" class="header__nav_item">Acerca de mi</a>
+				<a href="pages/project.html" class="header__nav_item">Proyectos</a>
+				<a href="pages/contact.html" class="header__nav_item">Contáctame</a>
+			</nav>
+			<div class="header__burger active">
+				<img src="img/burger.svg" alt="">
+			</div>
+			<div class="header__close">
+				<img src="img/Close.svg" alt="">
+			</div>
+		</header>
+		<section class="hero">
+			<div class="hero__info">
+				<div class="hero__title">
+					<h2>Soy <span>Miguel Ruz.</span></h2>
+					<h2>Diseñador UI</h2>
+				</div>
+				<div class="hero__text">
+					<p>Este es mi Portafolio web!</p>
+				</div>
+			</div>
+			<div class="hero__buttons">
+				<button type="button" class="hero__link button">Ver proyectos</button>
+				<button type="button" class="hero__download button">
+					<img src="img/download.svg" alt="">
+					<p>Descargar CV</p>
+				</button>
+			</div>
+		</section>
+		<section class="card">
+			<div class="card__img">
+				<img src="img/Miguel.png" alt="">
+			</div>
+			<div class="card__info">
+				<h2 class="card__title">Acerca de mi</h2>
+				<div class="card__text">
+					<p>Hola! mi nombre es Miguel y tengo gran afinidad hacía el trabajo colaborativo, me gusta crear diseños que inspiren e involucren a las personas. Como diseñador UI, considero que un buen producto no solo brinda una solución sino que permite crear una experiencia emocional en las personas que lo usan.</p>
+					<p>En mi proceso creativo utilizo herramientas como Figma, Adobe XD, Photoshop e Illustrator que me ayudan en el flujo de trabajo para la producción de interfaces de usuario.</p>
+				</div>
+				<button class="card__button button">
+					<a href="acerca.html">
+						<p>Mas acerca de mi</p>
+						<img src="img/arrow.svg" alt="">
+					</a>
+				</button>
+			</div>
+		</section>
+		<section class="project">
+			<div class="project__title">Proyectos</div>
+			<div class="project__items">
+				<div class="project__item">
+					<img src="img/preset.png" alt="">
+				</div>
+				<div class="project__item">
+					<img src="img/preset.png" alt="">
+				</div>
+				<div class="project__item">
+					<img src="img/preset.png" alt="">
+				</div>
+				<div class="project__item">
+					<img src="img/preset.png" alt="">
+				</div>
+			</div>
+			<div class="project__button button">
+				<p>Ver más en Behance</p>
+				<img src="img/arrow.svg" alt="">
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__links">
+				<div class="footer__items">
+					<div class="footer__item_logo">Miguel UI</div>
+				</div>
+				<div class="footer__items">
+					<a href="#" class="footer__item">Inicio</a>
+					<a href="acerca.html" class="footer__item">Acerca de mi</a>
+					<a href="project.html" class="footer__item">Proyectos</a>
+				</div>
+				<div class="footer__items">
+					<a href="contact.html" class="footer__item">Contáctame</a>
+					<a href="#" class="footer__item">Correo</a>
+					<a href="#" class="footer__item">LinkedIn</a>
+				</div>
+				<div class="footer__items">
+					<a href="#" class="footer__item">Social</a>
+					<div class="footer__item">
+						<a href="#" class="footer__item_icon">
+							<img src="img/Behance.svg" alt="">
+						</a>
+						<a href="#" class="footer__item_icon">
+							<img src="img/Linkendl.svg" alt="">
+						</a>
+						<a href="#" class="footer__item_icon">
+							<img src="img/Figma.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<p>© 2021 Miguel Ruz</p>
+			</div>
+		</footer>
+	</div>
+	<script src="js/scrollToElem.js"></script>
+	<script src="js/modalWindow.js"></script>
+</body>
+</html>

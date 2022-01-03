@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+}
+
+@import "font-face.scss";
+
+body {
+	font-family: 'DMSans';
+	background-color: #171718;
+	color: #ffffff;
+}
+.wrapper {
+	max-width: 1155px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+@media screen and (max-width: 1185px) {
+	.wrapper {
+		margin: 0 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.wrapper {
+		margin: 0 16px;
+	}
+}
+.select {
+	border-bottom: 3px solid #5C62EC;
+}
+.button {
+	color: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: box-shadow 0.3s ease-in-out;
+	&:hover {
+		box-shadow: 0 0 10px #5C62EC;
+	}
+}
+
+@import "blocks/modal";
+@import "blocks/header";
+@import "blocks/hero";
+@import "blocks/card";
+@import "blocks/project";
+@import "blocks/footer";
+@import "blocks/acerca";
+@import "blocks/habilidades.scss";
+@import "blocks/portada";
+@import "blocks/acercaProj";
+@import "blocks/tipografia";
+@import "blocks/paleta";
+@import "blocks/buttons";
+@import "blocks/contact.scss";

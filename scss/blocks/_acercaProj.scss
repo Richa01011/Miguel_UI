@@ -1,0 +1,27 @@
+.acercaProj {
+	margin-bottom: 130px;
+}
+.acercaProj__title {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 57px;
+	margin-bottom: 16px;
+}
+.acercaProj__text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.44px;
+	& p:first-child {
+		margin-bottom: 16px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.acercaProj {
+		margin-bottom: 32px;
+		&__title {
+			font-size: 24px;
+			line-height: 32px;
+		}
+	}
+}

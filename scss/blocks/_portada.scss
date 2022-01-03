@@ -1,0 +1,46 @@
+.portada {
+	margin: 64px 0 130px 0;
+}
+.portada__head {
+	margin-bottom: 64px;
+}
+.portada__text {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #A0A0A1;
+
+	margin-bottom: 24px;
+}
+.portada__title {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 71px;
+	letter-spacing: -0.5px;
+}
+.portada__img {
+	& img {
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.portada {
+		margin: 32px 0 64px 0;
+		&__head {
+			margin-bottom: 32px;
+		}
+		&__text {
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 20px;
+			letter-spacing: 0.15px;
+		}
+		&__title {
+			font-weight: 500;
+			font-size: 34px;
+			line-height: 40px;
+			letter-spacing: 0.25px;
+		}
+	}
+}
